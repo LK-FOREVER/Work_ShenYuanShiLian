@@ -1,0 +1,65 @@
+[
+    {
+        "skillId": 1,
+        "skillName": "荆棘之甲",
+        "type": "公共技能",
+        "cooldown": 30,
+        "duration": 10, 
+        "cost": 0,
+        "description": "        技能开启时，每次受到伤害，反弹受到伤害的10%给敌人。"
+    },
+    {
+        "skillId": 2,
+        "skillName": "魔法力场",
+        "type": "公共技能",
+        "cooldown": 50,
+        "duration": 0,
+        "cost": 0,
+        "description": "        获得一个可吸收(200+100%攻击力)伤害的守护力场。"
+    },
+    {
+        "skillId": 3,
+        "skillName": "魔力膨胀",
+        "type": "公共技能",
+        "cooldown": 15,
+        "duration": 0,
+        "cost": 0,
+        "description": "        快速连续攻击3次，每次攻击造成(攻击力60%)伤害"
+    },
+    {
+        "skillId": 4,
+        "skillName": "全力一击",
+        "type": "公共技能",
+        "cooldown": 35,
+        "duration": 0,
+        "cost": 0,
+        "description": "        造成（攻击力*300）伤害，但自身会减少10%生命值"
+    },
+    {
+        "skillId": 5,
+        "skillName": "烈火",
+        "type": "天赋技能",
+        "cooldown": 30,
+        "duration": 15,
+        "cost": 0,
+        "description": "        技能开始时，增加30%攻击力。"
+    },
+    {
+        "skillId": 6,
+        "skillName": "冰封术",
+        "type": "天赋技能",
+        "cooldown": 20,
+        "duration": 5,
+        "cost": 0,
+        "description": "        冰冻敌人，使其无法攻击。"
+    },
+    {
+        "skillId": 7,
+        "skillName": "魔力汲取",
+        "type": "天赋技能",
+        "cooldown": 30,
+        "duration": 0,
+        "cost": 0,
+        "description": "        造成(攻击力150%)伤害，并回复(30+本次伤害20%)生命值"
+    }
+]

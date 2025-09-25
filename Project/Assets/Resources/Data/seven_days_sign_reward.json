@@ -1,0 +1,37 @@
+[
+    {
+        "day": 1,
+        "rewardType": "Coin",
+        "rewardNum": 1000
+    },
+    {
+        "day": 2,
+        "rewardType": "Diamond",
+        "rewardNum": 200
+    },
+    {
+        "day": 3,
+        "rewardType": "Diamond",
+        "rewardNum": 300
+    },
+    {
+        "day": 4,
+        "rewardType": "StrengthenStone",
+        "rewardNum": 300
+    },
+    {
+        "day": 5,
+        "rewardType": "Diamond",
+        "rewardNum": 500
+    },
+    {
+        "day": 6,
+        "rewardType": "Coin",
+        "rewardNum": 2000
+    },
+    {
+        "day": 7,
+        "rewardType": "Diamond",
+        "rewardNum": 1000
+    }
+]

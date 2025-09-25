@@ -1,0 +1,16 @@
+skeleton.png
+size:512,512
+filter:Linear,Linear
+gebo1
+bounds:2,2,66,109
+offsets:0,0,67,109
+gebo2
+bounds:273,309,65,108
+tou
+bounds:2,163,269,298
+yanjing1
+bounds:2,113,159,48
+offsets:1,1,161,50
+yanjing2
+bounds:273,419,150,42
+offsets:1,1,152,44

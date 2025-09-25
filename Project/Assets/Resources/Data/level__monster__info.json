@@ -1,0 +1,102 @@
+[
+  {
+    "chapterId": 1,
+    "levels": [
+      { "levelId": "1-1", "monsters": [ { "monsterId": 101, "count": 1 }] },
+      { "levelId": "1-2", "monsters": [ { "monsterId": 101, "count": 5 }, { "monsterId": 102, "count": 5 } ] },
+      { "levelId": "1-3", "monsters": [ { "monsterId": 102, "count": 5 }, { "monsterId": 103, "count": 5 } ] },
+      { "levelId": "1-4", "monsters": [ { "monsterId": 102, "count": 5 }, { "monsterId": 103, "count": 5 } ] },
+      { "levelId": "1-5", "monsters": [ { "monsterId": 103, "count": 5 }, { "monsterId": 104, "count": 5 } ] },
+      { "levelId": "1-6", "monsters": [ { "monsterId": 103, "count": 5 }, { "monsterId": 104, "count": 5 } ] },
+      { "levelId": "1-7", "monsters": [ { "monsterId": 103, "count": 5 }, { "monsterId": 104, "count": 5 } ] },
+      { "levelId": "1-8", "monsters": [ { "monsterId": 104, "count": 5 }, { "monsterId": 105, "count": 5 } ] },
+      { "levelId": "1-9", "monsters": [ { "monsterId": 104, "count": 5 }, { "monsterId": 105, "count": 5 } ] },
+      { "levelId": "1-10", "monsters": [ { "monsterId": 105, "count": 5 }, { "monsterId": 106, "count": 5 } ] },
+      { "levelId": "1-11", "monsters": [ { "monsterId": 105, "count": 5 }, { "monsterId": 106, "count": 5 } ] },
+      { "levelId": "1-12", "monsters": [ { "monsterId": 105, "count": 5 }, { "monsterId": 106, "count": 5 } ] },
+      { "levelId": "1-13", "monsters": [ { "monsterId": 106, "count": 5 }, { "monsterId": 107, "count": 5 } ] },
+      { "levelId": "1-14", "monsters": [ { "monsterId": 106, "count": 5 }, { "monsterId": 107, "count": 5 } ] },
+      { "levelId": "1-15", "monsters": [ { "monsterId": 106, "count": 5 }, { "monsterId": 107, "count": 5 } ] },
+      { "levelId": "1-16", "monsters": [ { "monsterId": 107, "count": 5 }, { "monsterId": 108, "count": 5 } ] },
+      { "levelId": "1-17", "monsters": [ { "monsterId": 107, "count": 5 }, { "monsterId": 108, "count": 5 } ] },
+      { "levelId": "1-18", "monsters": [ { "monsterId": 108, "count": 5 }, { "monsterId": 109, "count": 5 } ] },
+      { "levelId": "1-19", "monsters": [ { "monsterId": 108, "count": 5 }, { "monsterId": 109, "count": 5 } ] },
+      { "levelId": "1-20", "monsters": [ { "monsterId": 108, "count": 5 }, { "monsterId": 109, "count": 5 } ] }
+    ]
+  },
+  {
+    "chapterId": 2,
+    "levels": [
+      { "levelId": "2-1", "monsters": [ { "monsterId": 108, "count": 5 }, { "monsterId": 109, "count": 5 } ] },
+      { "levelId": "2-2", "monsters": [ { "monsterId": 109, "count": 5 }, { "monsterId": 110, "count": 5 } ] },
+      { "levelId": "2-3", "monsters": [ { "monsterId": 109, "count": 5 }, { "monsterId": 110, "count": 5 } ] },
+      { "levelId": "2-4", "monsters": [ { "monsterId": 109, "count": 5 }, { "monsterId": 110, "count": 5 } ] },
+      { "levelId": "2-5", "monsters": [ { "monsterId": 110, "count": 5 }, { "monsterId": 111, "count": 5 } ] },
+      { "levelId": "2-6", "monsters": [ { "monsterId": 110, "count": 5 }, { "monsterId": 111, "count": 5 } ] },
+      { "levelId": "2-7", "monsters": [ { "monsterId": 111, "count": 5 }, { "monsterId": 112, "count": 5 } ] },
+      { "levelId": "2-8", "monsters": [ { "monsterId": 111, "count": 5 }, { "monsterId": 112, "count": 5 } ] },
+      { "levelId": "2-9", "monsters": [ { "monsterId": 111, "count": 5 }, { "monsterId": 112, "count": 5 } ] },
+      { "levelId": "2-10", "monsters": [ { "monsterId": 111, "count": 5 }, { "monsterId": 112, "count": 5 } ] },
+      { "levelId": "2-11", "monsters": [ { "monsterId": 112, "count": 5 }, { "monsterId": 113, "count": 5 } ] },
+      { "levelId": "2-12", "monsters": [ { "monsterId": 112, "count": 5 }, { "monsterId": 113, "count": 5 } ] },
+      { "levelId": "2-13", "monsters": [ { "monsterId": 112, "count": 5 }, { "monsterId": 113, "count": 5 } ] },
+      { "levelId": "2-14", "monsters": [ { "monsterId": 112, "count": 5 }, { "monsterId": 113, "count": 5 } ] },
+      { "levelId": "2-15", "monsters": [ { "monsterId": 114, "count": 5 }, { "monsterId": 115, "count": 5 } ] },
+      { "levelId": "2-16", "monsters": [ { "monsterId": 114, "count": 5 }, { "monsterId": 115, "count": 5 } ] },
+      { "levelId": "2-17", "monsters": [ { "monsterId": 114, "count": 5 }, { "monsterId": 115, "count": 5 } ] },
+      { "levelId": "2-18", "monsters": [ { "monsterId": 114, "count": 5 }, { "monsterId": 115, "count": 5 } ] },
+      { "levelId": "2-19", "monsters": [ { "monsterId": 116, "count": 5 }, { "monsterId": 117, "count": 5 } ] },
+      { "levelId": "2-20", "monsters": [ { "monsterId": 116, "count": 5 }, { "monsterId": 117, "count": 5 } ] }
+    ]
+  },
+  {
+    "chapterId": 3,
+    "levels": [
+      { "levelId": "3-1", "monsters": [ { "monsterId": 116, "count": 5 }, { "monsterId": 117, "count": 5 } ] },
+      { "levelId": "3-2", "monsters": [ { "monsterId": 116, "count": 5 }, { "monsterId": 117, "count": 5 } ] },
+      { "levelId": "3-3", "monsters": [ { "monsterId": 117, "count": 5 }, { "monsterId": 118, "count": 5 } ] },
+      { "levelId": "3-4", "monsters": [ { "monsterId": 117, "count": 5 }, { "monsterId": 118, "count": 5 } ] },
+      { "levelId": "3-5", "monsters": [ { "monsterId": 117, "count": 5 }, { "monsterId": 118, "count": 5 } ] },
+      { "levelId": "3-6", "monsters": [ { "monsterId": 201, "count": 5 }, { "monsterId": 202, "count": 5 } ] },
+      { "levelId": "3-7", "monsters": [ { "monsterId": 201, "count": 5 }, { "monsterId": 202, "count": 5 } ] },
+      { "levelId": "3-8", "monsters": [ { "monsterId": 201, "count": 5 }, { "monsterId": 202, "count": 5 } ] },
+      { "levelId": "3-9", "monsters": [ { "monsterId": 203, "count": 5 }, { "monsterId": 204, "count": 5 } ] },
+      { "levelId": "3-10", "monsters": [ { "monsterId": 203, "count": 5 }, { "monsterId": 204, "count": 5 } ] },
+      { "levelId": "3-11", "monsters": [ { "monsterId": 203, "count": 5 }, { "monsterId": 204, "count": 5 } ] },
+      { "levelId": "3-12", "monsters": [ { "monsterId": 203, "count": 5 }, { "monsterId": 204, "count": 5 } ] },
+      { "levelId": "3-13", "monsters": [ { "monsterId": 205, "count": 5 }, { "monsterId": 206, "count": 5 } ] },
+      { "levelId": "3-14", "monsters": [ { "monsterId": 205, "count": 5 }, { "monsterId": 206, "count": 5 } ] },
+      { "levelId": "3-15", "monsters": [ { "monsterId": 205, "count": 5 }, { "monsterId": 206, "count": 5 } ] },
+      { "levelId": "3-16", "monsters": [ { "monsterId": 205, "count": 5 }, { "monsterId": 206, "count": 5 } ] },
+      { "levelId": "3-17", "monsters": [ { "monsterId": 207, "count": 5 }, { "monsterId": 208, "count": 5 } ] },
+      { "levelId": "3-18", "monsters": [ { "monsterId": 207, "count": 5 }, { "monsterId": 208, "count": 5 } ] },
+      { "levelId": "3-19", "monsters": [ { "monsterId": 207, "count": 5 }, { "monsterId": 208, "count": 5 } ] },
+      { "levelId": "3-20", "monsters": [ { "monsterId": 207, "count": 5 }, { "monsterId": 208, "count": 5 } ] }
+    ]
+  },
+  {
+    "chapterId": 4,
+    "levels": [
+      { "levelId": "4-1", "monsters": [ { "monsterId": 209, "count": 5 }, { "monsterId": 210, "count": 5 } ] },
+      { "levelId": "4-2", "monsters": [ { "monsterId": 209, "count": 5 }, { "monsterId": 210, "count": 5 } ] },
+      { "levelId": "4-3", "monsters": [ { "monsterId": 209, "count": 5 }, { "monsterId": 210, "count": 5 } ] },
+      { "levelId": "4-4", "monsters": [ { "monsterId": 211, "count": 5 }, { "monsterId": 212, "count": 5 } ] },
+      { "levelId": "4-5", "monsters": [ { "monsterId": 211, "count": 5 }, { "monsterId": 212, "count": 5 } ] },
+      { "levelId": "4-6", "monsters": [ { "monsterId": 211, "count": 5 }, { "monsterId": 212, "count": 5 } ] },
+      { "levelId": "4-7", "monsters": [ { "monsterId": 211, "count": 5 }, { "monsterId": 212, "count": 5 } ] },
+      { "levelId": "4-8", "monsters": [ { "monsterId": 213, "count": 5 }, { "monsterId": 214, "count": 5 } ] },
+      { "levelId": "4-9", "monsters": [ { "monsterId": 213, "count": 5 }, { "monsterId": 214, "count": 5 } ] },
+      { "levelId": "4-10", "monsters": [ { "monsterId": 213, "count": 5 }, { "monsterId": 214, "count": 5 } ] },
+      { "levelId": "4-11", "monsters": [ { "monsterId": 213, "count": 5 }, { "monsterId": 214, "count": 5 } ] },
+      { "levelId": "4-12", "monsters": [ { "monsterId": 215, "count": 5 }, { "monsterId": 216, "count": 5 } ] },
+      { "levelId": "4-13", "monsters": [ { "monsterId": 215, "count": 5 }, { "monsterId": 216, "count": 5 } ] },
+      { "levelId": "4-14", "monsters": [ { "monsterId": 215, "count": 5 }, { "monsterId": 216, "count": 5 } ] },
+      { "levelId": "4-15", "monsters": [ { "monsterId": 215, "count": 5 }, { "monsterId": 216, "count": 5 } ] },
+      { "levelId": "4-16", "monsters": [ { "monsterId": 217, "count": 5 }, { "monsterId": 218, "count": 5 } ] },
+      { "levelId": "4-17", "monsters": [ { "monsterId": 217, "count": 5 }, { "monsterId": 218, "count": 5 } ] },
+      { "levelId": "4-18", "monsters": [ { "monsterId": 217, "count": 5 }, { "monsterId": 218, "count": 5 } ] },
+      { "levelId": "4-19", "monsters": [ { "monsterId": 217, "count": 5 }, { "monsterId": 218, "count": 5 } ] },
+      { "levelId": "4-20", "monsters": [ { "monsterId": 217, "count": 5 }, { "monsterId": 218, "count": 5 } ] }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "skillId": 0,
+        "skillName": "魔力汲取",
+        "type": "talent",
+        "cooldown": 30,
+        "duration": 0,
+        "cost": 0,
+        "description": "造成(攻击力150%)伤害，并回复(30+本次伤害20%)生命值"
+    }
+]

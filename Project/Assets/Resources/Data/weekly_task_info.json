@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "desc": "完成10次战斗",
+    "target": 10,
+    "rewardType": "Diamond",
+    "rewardNum": 60
+  },
+  {
+    "id": 2,
+    "desc": "赠送好友金币5次",
+    "target": 5,
+    "rewardType": "Stone",
+    "rewardNum": 200
+  },
+  {
+    "id": 3,
+    "desc": "领取5次挂机奖励",
+    "target": 5,
+    "rewardType": "Diamond",
+    "rewardNum": 50
+  },
+  {
+    "id": 4,
+    "desc": "消灭200名敌人",
+    "target": 200,
+    "rewardType": "Coin",
+    "rewardNum": 500
+  },
+  {
+    "id": 5,
+    "desc": "分解10次装备",
+    "target": 10,
+    "rewardType": "Coin",
+    "rewardNum": 300
+  },
+  {
+    "id": 6,
+    "desc": "开启10次宝箱",
+    "target": 10,
+    "rewardType": "Diamond",
+    "rewardNum": 60
+  },
+  {
+    "id": 7,
+    "desc": "每周登录5次",
+    "target": 5,
+    "rewardType": "Coin",
+    "rewardNum": 200
+  },
+  {
+    "id": 8,
+    "desc": "进行一次领袖挑战",
+    "target": 1,
+    "rewardType": "Diamond",
+    "rewardNum": 120
+  }
+]

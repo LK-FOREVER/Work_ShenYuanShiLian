@@ -1,0 +1,6 @@
+[
+   {"id":1,"triggerTypeId":0,"selectorTypeId":1,"effectTypeId":0},
+   {"id":2,"triggerTypeId":0,"selectorTypeId":1,"effectTypeId":1},
+   {"id":3,"triggerTypeId":0,"selectorTypeId":1,"effectTypeId":2},
+   {"id":4,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":3}
+]

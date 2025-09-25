@@ -1,0 +1,16 @@
+skeleton.png
+size:512,256
+filter:Linear,Linear
+huang
+bounds:401,126,76,102
+offsets:0,3,76,105
+rotate:90
+tou
+bounds:2,2,240,200
+offsets:0,1,240,201
+yanjing1
+bounds:244,125,155,77
+offsets:1,1,158,79
+yanjing2
+bounds:244,65,139,58
+offsets:1,1,141,60

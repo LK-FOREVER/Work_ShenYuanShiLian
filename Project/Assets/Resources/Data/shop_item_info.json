@@ -1,0 +1,112 @@
+[
+    {
+        "id": 0,
+        "buyType": "Coin",
+        "buyNum": 100,
+        "buyLimit": 1,
+        "buyDesc": "100金币",
+        "limitType": "Daily",
+        "costType": "Free",
+        "costNum": 0
+    },
+    {
+        "id": 1,
+        "buyType": "Coin",
+        "buyNum": 2000,
+        "buyLimit": 5,
+        "buyDesc": "2000金币",
+        "limitType": "Daily",
+        "costType": "Diamond",
+        "costNum": 100
+    },
+    {
+        "id": 2,
+        "buyType": "Stone",
+        "buyNum": 100,
+        "buyLimit": 1,
+        "buyDesc": "100强化石",
+        "limitType": "Daily",
+        "costType": "Coin",
+        "costNum": 500
+    },
+    {
+        "id": 0,
+        "buyType": "Coin",
+        "buyNum": 5000,
+        "buyLimit": 5,
+        "buyDesc": "5000金币",
+        "limitType": "Weekly",
+        "costType": "Diamond",
+        "costNum": 200
+    },
+    {
+        "id": 1,
+        "buyType": "Stone",
+        "buyNum": 500,
+        "buyLimit": 5,
+        "buyDesc": "500强化石",
+        "limitType": "Weekly",
+        "costType": "Diamond",
+        "costNum": 200
+    },
+    {
+        "id": 2,
+        "buyType": "Stone",
+        "buyNum": 1000,
+        "buyLimit": 5,
+        "buyDesc": "1000强化石",
+        "limitType": "Weekly",
+        "costType": "Diamond",
+        "costNum": 400
+    },
+    {
+        "id": 0,
+        "buyType": "Diamond",
+        "buyNum": 60,
+        "buyLimit": 0,
+        "buyDesc": "60钻石",
+        "limitType": "Limitless",
+        "costType": "Cash",
+        "costNum": 6
+    },
+    {
+        "id": 1,
+        "buyType": "Diamond",
+        "buyNum": 300,
+        "buyLimit": 0,
+        "buyDesc": "300钻石",
+        "limitType": "Limitless",
+        "costType": "Cash",
+        "costNum": 30
+    },
+    {
+        "id": 2,
+        "buyType": "Diamond",
+        "buyNum": 680,
+        "buyLimit": 0,
+        "buyDesc": "680钻石",
+        "limitType": "Limitless",
+        "costType": "Cash",
+        "costNum": 68
+    },
+    {
+        "id": 3,
+        "buyType": "Diamond",
+        "buyNum": 1280,
+        "buyLimit": 0,
+        "buyDesc": "1280钻石",
+        "limitType": "Limitless",
+        "costType": "Cash",
+        "costNum": 128
+    },
+    {
+        "id": 4,
+        "buyType": "Diamond",
+        "buyNum": 3280,
+        "buyLimit": 0,
+        "buyDesc": "3280钻石",
+        "limitType": "Limitless",
+        "costType": "Cash",
+        "costNum": 328
+    }
+]

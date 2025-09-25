@@ -1,0 +1,6 @@
+under.png
+size:128,128
+filter:Linear,Linear
+ice_04
+bounds:2,2,75,91
+offsets:24,15,113,113

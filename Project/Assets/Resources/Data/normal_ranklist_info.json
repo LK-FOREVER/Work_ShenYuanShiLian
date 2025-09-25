@@ -1,0 +1,22 @@
+[
+   {"id":0,"player_id":1,"icon":0,"name":"龙焰", "level": 120, "normal_level":80, "is_player":false},
+   {"id":1,"player_id":2,"icon":1,"name":"星尘", "level": 115, "normal_level":80, "is_player":false},
+   {"id":2,"player_id":3,"icon":2,"name":"夜刃", "level": 110, "normal_level":76, "is_player":false},
+   {"id":3,"player_id":4,"icon":1,"name":"风影", "level": 109, "normal_level":66, "is_player":false},
+   {"id":4,"player_id":5,"icon":0,"name":"瞬影", "level": 108, "normal_level":60, "is_player":false},
+   {"id":5,"player_id":6,"icon":1,"name":"赤瞳", "level": 104, "normal_level":50, "is_player":false},
+   {"id":6,"player_id":7,"icon":0,"name":"笑笑", "level": 100, "normal_level":35, "is_player":false},
+   {"id":7,"player_id":8,"icon":1,"name":"吴十", "level": 99, "normal_level":32, "is_player":false},
+   {"id":8,"player_id":9,"icon":2,"name":"喵王", "level": 96, "normal_level":30, "is_player":false},    
+   {"id":9,"player_id":10,"icon":2,"name":"无名", "level": 85, "normal_level":26, "is_player":false},  
+   {"id":10,"player_id":11,"icon":1,"name":"哈哈", "level": 76, "normal_level":24, "is_player":false},
+   {"id":11,"player_id":12,"icon":0,"name":"浏览", "level": 75, "normal_level":20, "is_player":false},
+   {"id":12,"player_id":13,"icon":1,"name":"十五", "level": 77, "normal_level":19, "is_player":false},
+   {"id":13,"player_id":14,"icon":2,"name":"寒霜", "level": 65, "normal_level":18, "is_player":false},
+   {"id":14,"player_id":15,"icon":2,"name":"沈", "level": 66, "normal_level":16, "is_player":false},
+   {"id":15,"player_id":16,"icon":2,"name":"雷云", "level": 66, "normal_level":10, "is_player":false},
+   {"id":16,"player_id":17,"icon":2,"name":"123321", "level": 66, "normal_level":6, "is_player":false},
+   {"id":17,"player_id":18,"icon":1,"name":"云游", "level": 66, "normal_level":3, "is_player":false},
+   {"id":18,"player_id":19,"icon":0,"name":"略略略", "level": 11, "normal_level":2, "is_player":false},
+   {"id":19,"player_id":20,"icon":0,"name":"倾诉", "level": 6, "normal_level":1, "is_player":false}
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "skillId": 1,
+        "skillName": "荆棘之甲",
+        "type": "common",
+        "cooldown": 30,
+        "duration": 10, 
+        "cost": 0,
+        "description": "技能开启时，每次受到伤害，反弹<color=#BA451A>受到伤害的10%</color>给敌人。"
+    },
+    {
+        "skillId": 2,
+        "skillName": "魔法力场",
+        "type": "common",
+        "cooldown": 50,
+        "duration": 0,
+        "cost": 0,
+        "description": "获得一个可吸收(<color=#BA451A>200+100%攻击力</color>)伤害的守护力场。"
+    },
+    {
+        "skillId": 3,
+        "skillName": "魔力膨胀",
+        "type": "common",
+        "cooldown": 15,
+        "duration": 0,
+        "cost": 0,
+        "description": "快速连续攻击<color=#BA451A>3次</color>，每次攻击造成(<color=#BA451A>攻击力60%</color>)的伤害。"
+    },
+    {
+        "skillId": 4,
+        "skillName": "全力一击",
+        "type": "common",
+        "cooldown": 35,
+        "duration": 0,
+        "cost": 0,
+        "description": "造成（<color=#BA451A>攻击力*300</color>）伤害，但自身会<color=#BA451A>减少10%生命值</color>。"
+    }
+]

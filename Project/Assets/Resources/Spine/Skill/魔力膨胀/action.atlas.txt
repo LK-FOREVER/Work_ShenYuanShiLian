@@ -1,0 +1,6 @@
+action.png
+size:256,128
+filter:Linear,Linear
+魔力膨胀
+bounds:2,2,208,120
+offsets:1,1,211,121

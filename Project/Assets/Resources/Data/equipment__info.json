@@ -1,0 +1,15 @@
+[
+   {"id":0,"type":0,"name":"头盔","desc":"减伤2%。","dr":2,"priceMin":80,"priceMax":120},
+   {"id":1,"type":0,"name":"头盔","desc":"减伤4%。","dr":4,"priceMin":130,"priceMax":150},
+   {"id":2,"type":0,"name":"头盔","desc":"减伤6%。","dr":6,"priceMin":160,"priceMax":180},
+   {"id":3,"type":0,"name":"头盔","desc":"减伤8%。","dr":8,"priceMin":220,"priceMax":260},
+   {"id":4,"type":1,"name":"胸甲","desc":"减伤5%。","dr":5,"priceMin":180,"priceMax":220},
+   {"id":5,"type":1,"name":"胸甲","desc":"减伤7%。","dr":7,"priceMin":230,"priceMax":250},
+   {"id":6,"type":1,"name":"胸甲","desc":"减伤9%。","dr":9,"priceMin":280,"priceMax":320},
+   {"id":7,"type":1,"name":"胸甲","desc":"减伤10%。","dr":10,"priceMin":350,"priceMax":420},
+   {"id":8,"type":1,"name":"胸甲","desc":"减伤12%。","dr":12,"priceMin":450,"priceMax":500},
+   {"id":9,"type":2,"name":"护腿","desc":"减伤2%。","dr":2,"priceMin":80,"priceMax":120},
+   {"id":10,"type":2,"name":"护腿","desc":"减伤4%。","dr":4,"priceMin":130,"priceMax":150},
+   {"id":11,"type":2,"name":"护腿","desc":"减伤6%。","dr":6,"priceMin":160,"priceMax":180},
+   {"id":12,"type":2,"name":"护腿","desc":"减伤8%。","dr":8,"priceMin":220,"priceMax":260}
+]

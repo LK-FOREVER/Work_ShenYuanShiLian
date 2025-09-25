@@ -1,0 +1,11 @@
+[
+    {
+        "skillId": 0,
+        "skillName": "烈火",
+        "type": "talent",
+        "cooldown": 30,
+        "duration": 15,
+        "cost": 0,
+        "description": "技能开始时，增加30%攻击力。"
+    }
+]

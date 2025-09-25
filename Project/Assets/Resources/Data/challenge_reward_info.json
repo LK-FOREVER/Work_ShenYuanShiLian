@@ -1,0 +1,179 @@
+[
+   {
+      "id": 1,
+      "desc": "单次最高对领袖造成200点伤害",
+      "target": 200,
+      "reward": [
+         {
+            "rewardType": "Stone",
+            "rewardNum": 50,
+            "quality": 3
+         },
+         {
+            "rewardType": "Coin",
+            "rewardNum": 2000,
+            "quality":3
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "desc": "单次最高对领袖造成500点伤害",
+      "target": 500,
+      "reward": [
+         {
+            "rewardType": "Stone",
+            "rewardNum": 200,
+            "quality": 3
+         },
+         {
+            "rewardType": "Coin",
+            "rewardNum": 3000,
+            "quality": 3
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "desc": "单次最高对领袖造成800点伤害",
+      "target": 800,
+      "reward": [
+         {
+            "rewardType": "Stone",
+            "rewardNum": 300,
+            "quality": 3
+         },
+         {
+            "rewardType": "Coin",
+            "rewardNum": 5000,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 4,
+      "desc": "单次最高对领袖造成1200点伤害",
+      "target": 1200,
+      "reward": [
+         {
+            "rewardType": "Stone",
+            "rewardNum": 400,
+            "quality": 3
+         },
+         {
+            "rewardType": "Coin",
+            "rewardNum": 8000,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 5,
+      "desc": "单次最高对领袖造成1500点伤害",
+      "target": 1500,
+      "reward": [
+         {
+            "rewardType": "Stone",
+            "rewardNum": 500,
+            "quality": 3
+         },
+         {
+            "rewardType": "Coin",
+            "rewardNum": 12000,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 6,
+      "desc": "单次最高对领袖造成2000点伤害",
+      "target": 2000,
+      "reward": [
+         {
+            "rewardType": "Equip",
+            "rewardNum": 2,
+            "quality": 2
+         },
+         {
+            "rewardType": "Diamond",
+            "rewardNum": 100,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 7,
+      "desc": "单次最高对领袖造成2500点伤害",
+      "target": 2500,
+      "reward": [
+         {
+            "rewardType": "Equip",
+            "rewardNum": 2,
+            "quality": 2
+         },
+         {
+            "rewardType": "Diamond",
+            "rewardNum": 200,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 8,
+      "desc": "单次最高对领袖造成3000点伤害",
+      "target": 3000,
+      "reward": [
+         {
+            "rewardType": "Equip",
+            "rewardNum": 2,
+            "quality": 2
+         },
+         {
+            "rewardType": "Diamond",
+            "rewardNum": 300,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 9,
+      "desc": "单次最高对领袖造成4000点伤害",
+      "target": 4000,
+      "reward": [
+         {
+            "rewardType": "Equip",
+            "rewardNum": 2,
+            "quality": 3
+         },
+         {
+            "rewardType": "Diamond",
+            "rewardNum": 400,
+            "quality": 3
+         }
+      ]
+   }
+   ,
+   {
+      "id": 10,
+      "desc": "单次最高对领袖造成5000点伤害",
+      "target": 5000,
+      "reward": [
+         {
+            "rewardType": "Equip",
+            "rewardNum": 2,
+            "quality": 3
+         },
+         {
+            "rewardType": "Diamond",
+            "rewardNum": 500,
+            "quality": 3
+         }
+      ]
+   }
+]

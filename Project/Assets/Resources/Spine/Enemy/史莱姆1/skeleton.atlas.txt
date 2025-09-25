@@ -1,0 +1,15 @@
+skeleton.png
+size:512,256
+filter:Linear,Linear
+shuidi
+bounds:2,2,82,48
+offsets:1,0,83,48
+tou
+bounds:2,52,236,197
+offsets:0,0,280,197
+yanjing1
+bounds:240,171,155,78
+offsets:1,1,158,81
+yanjing2
+bounds:240,111,139,58
+offsets:1,1,141,60

@@ -1,0 +1,22 @@
+[
+   {"id":0,"player_id":1,"icon":0,"name":"龙焰", "level": 120, "damage":3000, "is_player":false},
+   {"id":1,"player_id":2,"icon":1,"name":"星尘", "level": 115, "damage":2880, "is_player":false},
+   {"id":2,"player_id":3,"icon":2,"name":"夜刃", "level": 110, "damage":2760, "is_player":false},
+   {"id":3,"player_id":4,"icon":1,"name":"风影", "level": 109, "damage":2640, "is_player":false},
+   {"id":4,"player_id":5,"icon":0,"name":"瞬影", "level": 108, "damage":2520, "is_player":false},
+   {"id":5,"player_id":6,"icon":1,"name":"赤瞳", "level": 104, "damage":2400, "is_player":false},
+   {"id":6,"player_id":7,"icon":0,"name":"笑笑", "level": 100, "damage":2015, "is_player":false},
+   {"id":7,"player_id":8,"icon":1,"name":"吴十", "level": 99, "damage":1904, "is_player":false},
+   {"id":8,"player_id":9,"icon":2,"name":"喵王", "level": 96, "damage":1900, "is_player":false},    
+   {"id":9,"player_id":10,"icon":2,"name":"无名", "level": 85, "damage":1865, "is_player":false},  
+   {"id":10,"player_id":11,"icon":1,"name":"哈哈", "level": 76, "damage":1832, "is_player":false},
+   {"id":11,"player_id":12,"icon":0,"name":"浏览", "level": 75, "damage":1650, "is_player":false},
+   {"id":12,"player_id":13,"icon":1,"name":"十五", "level": 77, "damage":1255, "is_player":false},
+   {"id":13,"player_id":14,"icon":2,"name":"寒霜", "level": 65, "damage":1100, "is_player":false},
+   {"id":14,"player_id":15,"icon":2,"name":"沈", "level": 66, "damage":1014, "is_player":false},
+   {"id":15,"player_id":16,"icon":2,"name":"雷云", "level": 66, "damage":950, "is_player":false},
+   {"id":16,"player_id":17,"icon":2,"name":"123321", "level": 66, "damage":802, "is_player":false},
+   {"id":17,"player_id":18,"icon":1,"name":"云游", "level": 66, "damage":50, "is_player":false},
+   {"id":18,"player_id":19,"icon":0,"name":"略略略", "level": 11, "damage":30, "is_player":false},
+   {"id":19,"player_id":20,"icon":0,"name":"倾诉", "level": 6, "damage":20, "is_player":false}
+]

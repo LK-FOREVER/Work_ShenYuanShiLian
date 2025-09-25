@@ -1,0 +1,11 @@
+[
+    {
+        "skillId": 0,
+        "skillName": "冰封术",
+        "type": "talent",
+        "cooldown": 20,
+        "duration": 5,
+        "cost": 0,
+        "description": "冰冻敌人，使其无法攻击。"
+    }
+]

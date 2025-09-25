@@ -1,0 +1,15 @@
+[
+   {"id":1,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":0},
+   {"id":2,"triggerTypeId":1,"selectorTypeId":1,"effectTypeId":1},
+   {"id":3,"triggerTypeId":1,"selectorTypeId":1,"effectTypeId":2},
+   {"id":4,"triggerTypeId":1,"selectorTypeId":1,"effectTypeId":3},
+   {"id":5,"triggerTypeId":1,"selectorTypeId":1,"effectTypeId":4},
+   {"id":6,"triggerTypeId":1,"selectorTypeId":1,"effectTypeId":5},
+   {"id":7,"triggerTypeId":1,"selectorTypeId":1,"effectTypeId":6},
+   {"id":8,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":7},
+   {"id":9,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":8},
+   {"id":10,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":9},
+   {"id":11,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":10},
+   {"id":12,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":11},
+   {"id":13,"triggerTypeId":0,"selectorTypeId":0,"effectTypeId":12}
+]

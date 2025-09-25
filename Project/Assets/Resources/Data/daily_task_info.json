@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "desc": "完成1次战斗",
+      "target": 1,
+      "rewardType": "Coin",
+      "rewardNum": 200
+    },
+    {
+      "id": 2,
+      "desc": "赠送好友金币1次",
+      "target": 1,
+      "rewardType": "Diamond",
+      "rewardNum": 20
+    },
+    {
+      "id": 3,
+      "desc": "领取1次挂机奖励",
+      "target": 1,
+      "rewardType": "Coin",
+      "rewardNum": 300
+    },
+    {
+      "id": 4,
+      "desc": "消灭50名敌人",
+      "target": 50,
+      "rewardType": "Coin",
+      "rewardNum": 500
+    },
+    {
+      "id": 5,
+      "desc": "分解1次装备",
+      "target": 1,
+      "rewardType": "Coin",
+      "rewardNum": 300
+    },
+    {
+      "id": 6,
+      "desc": "开启1次宝箱",
+      "target": 1,
+      "rewardType": "Stone",
+      "rewardNum": 20
+    },
+    {
+      "id": 7,
+      "desc": "每日登录",
+      "target": 1,
+      "rewardType": "Coin",
+      "rewardNum": 200
+    },
+    {
+      "id": 8,
+      "desc": "在线30分钟",
+      "target": 30,
+      "rewardType": "Diamond",
+      "rewardNum": 30
+    }
+]
