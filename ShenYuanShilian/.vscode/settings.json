@@ -56,6 +56,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Project.sln",
+    "dotnet.defaultSolution": "ShenYuanShilian.sln",
     "workbench.editor.wrapTabs": true
 }
