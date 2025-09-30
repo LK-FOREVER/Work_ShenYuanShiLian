@@ -143,7 +143,7 @@ public class RankListBoard : View
             rankItem.transform.SetParent(normal_rank_content.transform, false);
         }
     }
-    //领袖挑战排行榜
+    //精英挑战排行榜
     private void InitSecondPage()
     {
         // 玩家排名

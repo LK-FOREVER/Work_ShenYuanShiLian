@@ -37,7 +37,7 @@ public class GameData
     public int stonesCount; //强化石数量
     public int skillPoint = 0; //技能点数量，玩家一共200级，每升4级获得1个技能点，总共50个技能点。
 
-    public int levelType = 0;//0-普通关卡，1-领袖挑战模式
+    public int levelType = 0;//0-普通关卡，1-精英挑战模式
     public int levelCount = 1;//当前已解锁的关卡数，总共80关，但是为了处理MapView中关卡按钮的状态，设置81时，才表示所有关卡 通关
 
     public float musicVolume = 1f;
@@ -142,7 +142,7 @@ public class GameData
     
     public Scene nextScene;
 
-    //领袖挑战
+    //精英挑战
     public int leaderChallengeDamage = 0;//历史最高伤害
     public bool[] challengeRewardGet = { false, false, false, false, false, false, false, false, false, false };//记录挑战奖励是否领取
 }

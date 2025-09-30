@@ -109,7 +109,7 @@ public class SkillUpgradePanel : View
         }
         else if (skillPointType == SkillPointType.Crit)
         {
-            propertyNameText.text = "暴击";
+            propertyNameText.text = "重击";
             propertyUpgradeBtn.gameObject.GetComponent<Image>().sprite = GetModel<GameModel>().SkillPoint > 0 && GetModel<GameModel>().CritProLevel[skillPointIndex] < 2 ? upgradeIcon[1] : upgradeIcon[0];
             if (propertyUpgradeBtn.gameObject.GetComponent<Image>().sprite == upgradeIcon[0])
             {

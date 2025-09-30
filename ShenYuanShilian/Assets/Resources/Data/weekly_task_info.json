@@ -50,7 +50,7 @@
   },
   {
     "id": 8,
-    "desc": "进行一次领袖挑战",
+    "desc": "进行一次精英挑战",
     "target": 1,
     "rewardType": "Diamond",
     "rewardNum": 120

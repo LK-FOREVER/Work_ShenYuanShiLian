@@ -19,6 +19,6 @@ public class FriendMessagePopup : MonoBehaviour
         nickName.text = currentFriend.name;
         level.text = "等级：" + currentFriend.level;
         score.text = "通关："+currentFriend.levelText;
-        challenge.text = "领袖挑战最高伤害："+currentFriend.challenge.ToString();
+        challenge.text = "精英挑战最高伤害："+currentFriend.challenge.ToString();
     }
 }

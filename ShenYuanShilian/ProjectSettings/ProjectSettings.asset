@@ -260,7 +260,7 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: F:/shenyuanProject/shenyuanKey/shenyuan.keystore
+  AndroidKeystoreName: F:/KeyStore/ShenYuanShiLianKey/shenyuan.keystore
   AndroidKeyaliasName: shenyuan
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0

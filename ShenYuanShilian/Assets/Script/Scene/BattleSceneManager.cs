@@ -140,7 +140,7 @@ public class BattleSceneManager : View
     [SerializeField]
     private GameObject warnBoard;
     [SerializeField]
-    private GameObject challengeEndBoard;//领袖挑战结束弹窗
+    private GameObject challengeEndBoard;//精英挑战结束弹窗
     [SerializeField]
     private List<GameObject> monsterPrefabList;// 怪物预制体
 
@@ -176,8 +176,8 @@ public class BattleSceneManager : View
     public bool isAutoBattle = false;//是否开启了自动战斗
     private Coroutine autoBattleCoroutine;
 
-    private float totalTime = 90f; // 领袖挑战倒计时总时间（秒）
-    private float currentTime;// 领袖挑战倒计时剩余时间（秒）
+    private float totalTime = 90f; // 精英挑战倒计时总时间（秒）
+    private float currentTime;// 精英挑战倒计时剩余时间（秒）
     private int challengeCurrentDamage = 0;//当前造成的伤害
     private Coroutine countdownCoroutine; // 存储协程引用
 
@@ -1302,7 +1302,7 @@ public class BattleSceneManager : View
         currentHp = args.currentHp;
     }
 
-    //领袖挑战倒计时
+    //精英挑战倒计时
     public void StartCountdown()
     {
         if (countdownCoroutine != null)

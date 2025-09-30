@@ -42,6 +42,7 @@ public class Equip_Content : MonoBehaviour
         equip.sprite = SpriteManager.Instance.GetEquipSprite(curEquip.type, curEquip.id);
         quality.sprite = SpriteManager.Instance.GetQualitySprite(curEquip.quality);
         isWear.SetActive(isWearing && isOpenFromEquip && !isSlotIns);
+        Debug.Log("初始化装备栏位，装备ID为" + curEquip.id + "，是否穿戴中：" + isWearing + "，是否从装备栏打开：" + isOpenFromEquip + "，是否栏位生成：" + isSlotIns);
     }
 
     public void Wearing()

@@ -116,7 +116,7 @@ public class SkillTreeView : View
         for (int i = 0; i < critObj.Length; i++)
         {
             critObj[i].GetComponent<Image>().sprite = GetModel<GameModel>().CritProLevel[i] > 0 ? critSprite[1] : critSprite[0];
-            critObj[i].transform.Find("textBg").Find("name").GetComponent<Text>().text = $"暴击（{GetModel<GameModel>().CritProLevel[i]}/2）";
+            critObj[i].transform.Find("textBg").Find("name").GetComponent<Text>().text = $"重击（{GetModel<GameModel>().CritProLevel[i]}/2）";
         }
     }
     private void InitAddDamage()

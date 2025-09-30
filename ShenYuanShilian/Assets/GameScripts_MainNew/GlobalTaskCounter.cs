@@ -69,7 +69,7 @@ public enum WeeklyTask
     /// </summary>
     Login,
     /// <summary>
-    /// 进行1次领袖挑战
+    /// 进行1次精英挑战
     /// </summary>
     BossChallenge,
 }
