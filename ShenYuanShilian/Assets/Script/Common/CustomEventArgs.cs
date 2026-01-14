@@ -156,6 +156,14 @@ public class ShowCommonTips :EventArgs
 {
     public string tipsContent;
 }
+/// <summary>
+/// 充值提示
+/// </summary>
+public class RechargeArg : EventArgs
+{
+    public int num_money; // 充值金额
+}
+
 
 /// <summary>
 /// 武器刷新

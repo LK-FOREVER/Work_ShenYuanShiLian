@@ -50,6 +50,7 @@ public static class EventName
     public const string EndCommonSkill_3 = nameof(EndCommonSkill_3); // 结束魔力膨胀技能
     public const string EndCommonSkill_4 = nameof(EndCommonSkill_4); // 结束全力一击技能
     public const string ShopEvent = nameof(ShopEvent);
+    public const string Recharge = nameof(Recharge);//充值
     public const string RefreshShop = nameof(RefreshShop);
     //弹窗事件
     public const string ShowCommonAward = nameof(ShowCommonAward);

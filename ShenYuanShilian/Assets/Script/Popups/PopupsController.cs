@@ -56,6 +56,10 @@ public class PopupsController : MonoBehaviour
         awardPopup.SetActive(true);
         SetAward awardEvent = e as SetAward;
         awardPopup.GetComponent<CommonAwardPopupView>().ShowAward(awardEvent);
+        if(awardEvent.awardList[0].awardType == RewardType.Diamond && Mvc.GetModel<GameModel>().gameData.age == 2 )
+        {
+            EventManager.Instance.TriggerEvent(EventName.Recharge, new RechargeArg() { num_money = awardEvent.awardList[0].awardNum });
+        }
     }
     
     private void ShowCreateAccountPopup(object sender, EventArgs e)

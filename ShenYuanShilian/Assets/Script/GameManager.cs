@@ -24,8 +24,7 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
 
     private void Start()
     {
-        LoadData();
-        GameManager.Instance.Init(); 
+        GameManager.Instance.Init();
     }
 
     private void Init()
@@ -64,7 +63,7 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
         Mvc.GetModel<GameModel>().NextScene = scene;
         SceneManager.LoadScene((int)Scene.Change);
     }
-    
+
     public void ExitGame(string str)
     {
         DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
@@ -73,7 +72,7 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
         int delayTime = (21 - localDateTime.Hour) * 60 * 60 + (0 - localDateTime.Minute) * 60 + (0 - localDateTime.Second);
         StartCoroutine(Exit(delayTime));
     }
-    
+
     public void StartOnlineTimer()
     {
         StartCoroutine(RecordOnlineDuration());
@@ -101,7 +100,7 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
     private IEnumerator AFKTimer()
     {
         SetAFKData();
-        if ( Mvc.GetModel<GameModel>().LastAFKRewardTime ==default)
+        if (Mvc.GetModel<GameModel>().LastAFKRewardTime == default)
         {
             Mvc.GetModel<GameModel>().LastAFKRewardTime = DateTime.Now;
         }
@@ -117,25 +116,25 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
                 minutePassed = DateTime.Now - Mvc.GetModel<GameModel>().LastAFKRewardTime;
                 AFKSecond = (int)minutePassed.TotalSeconds;
                 AFKMinute = AFKSecond / 60;
-                if (AFKMinute != cacheMinute && AFKMinute!=0)
+                if (AFKMinute != cacheMinute && AFKMinute != 0)
                 {
                     if (AFKMinute % 1 == 0)
                     {
-                        Mvc.GetModel<GameModel>().CacheAFKCoin+=DataManager.Instance.AFKInfoList
+                        Mvc.GetModel<GameModel>().CacheAFKCoin += DataManager.Instance.AFKInfoList
                             .Find(info => info.chapter == (Mvc.GetModel<GameModel>().CurLevel - 1) / 20 + 1).coinPerMin;
                         cacheMinute = AFKMinute;
                     }
                     if (AFKMinute % 30 == 0)
                     {
-                        Mvc.GetModel<GameModel>().CacheAFKStone+=DataManager.Instance.AFKInfoList
+                        Mvc.GetModel<GameModel>().CacheAFKStone += DataManager.Instance.AFKInfoList
                             .Find(info => info.chapter == (Mvc.GetModel<GameModel>().CurLevel - 1) / 20 + 1).stonePer30Min;
-                        Mvc.GetModel<GameModel>().CacheAFKExp+=DataManager.Instance.AFKInfoList
+                        Mvc.GetModel<GameModel>().CacheAFKExp += DataManager.Instance.AFKInfoList
                             .Find(info => info.chapter == (Mvc.GetModel<GameModel>().CurLevel - 1) / 20 + 1).expPer30Min;
                         cacheMinute = AFKMinute;
                     }
                     if (AFKMinute % 60 == 0)
                     {
-                        Mvc.GetModel<GameModel>().CacheAFKDiamond+=DataManager.Instance.AFKInfoList
+                        Mvc.GetModel<GameModel>().CacheAFKDiamond += DataManager.Instance.AFKInfoList
                             .Find(info => info.chapter == (Mvc.GetModel<GameModel>().CurLevel - 1) / 20 + 1).diamondPer60Min;
                         cacheMinute = AFKMinute;
                     }
@@ -149,21 +148,21 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
         SetAFKData();
         TimeSpan minutePassed = DateTime.Now - Mvc.GetModel<GameModel>().LastAFKRewardTime;
         int AFKMinute = (int)minutePassed.TotalMinutes;
-        if (AFKMinute>=720)
+        if (AFKMinute >= 720)
         {
             AFKMinute = 720;//最多12小时
         }
         Mvc.GetModel<GameModel>().CacheAFKCoin = AFKRewardCoin * AFKMinute;
         Mvc.GetModel<GameModel>().CacheAFKStone = AFKRewardStone * (AFKMinute / 30);
         Mvc.GetModel<GameModel>().CacheAFKExp = AFKRewardExp * (AFKMinute / 30);
-        Mvc.GetModel<GameModel>().CacheAFKDiamond= AFKRewardDiamond * (AFKMinute / 60);
+        Mvc.GetModel<GameModel>().CacheAFKDiamond = AFKRewardDiamond * (AFKMinute / 60);
     }
 
     public IEnumerator Exit(int time)
     {
         yield return new WaitForSecondsRealtime(time);
         string currentSceneName = SceneManager.GetActiveScene().name;
-        if(currentSceneName == "Main")
+        if (currentSceneName == "Main")
         {
             GameObject.Find("Canvas").GetComponent<MainSceneManager>().OnShowWarn();
         }
@@ -171,7 +170,7 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
         {
             GameObject.Find("Canvas").GetComponent<BattleSceneManager>().OnShowWarn();
         }
-        if(currentSceneName == "Load")
+        if (currentSceneName == "Load")
         {
             GameObject.Find("Canvas").GetComponent<LoadingSceneManager>().OnShowWarn();
         }
@@ -193,11 +192,11 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
         }
     }
 
-    private void LoadData()
+    public void LoadData()
     {
         _currentMonth = DateTime.Now.Month;
-        int lastMonth = PlayerPrefs.GetInt(LAST_MONTH_KEY, _currentMonth);
-        _total = PlayerPrefs.GetInt(TOTAL_KEY, 0);
+        int lastMonth = PlayerPrefs.GetInt(Mvc.GetModel<GameModel>().Account + LAST_MONTH_KEY, _currentMonth);
+        _total = PlayerPrefs.GetInt(Mvc.GetModel<GameModel>().Account + TOTAL_KEY, 0);
 
         // 跨月重置
         if (lastMonth != _currentMonth)
@@ -208,6 +207,10 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
     }
     public (bool isMonthlyExceed, bool isSingleExceed) CheckRecharge(int amount)
     {
+        Debug.Log($"_total: {_total}");
+        Debug.Log($"amount: {amount}");
+        Debug.Log($"_total + amount: {_total + amount}");
+
         bool isMonthlyExceed = _total + amount > 400;
         bool isSingleExceed = amount > 100;
         return (isMonthlyExceed, isSingleExceed);
@@ -221,8 +224,12 @@ public class GameManager : SingletonAutoMonoBase<GameManager>
 
     private void SaveData()
     {
-        PlayerPrefs.SetInt(LAST_MONTH_KEY, _currentMonth);
-        PlayerPrefs.SetInt(TOTAL_KEY, _total);
+        PlayerPrefs.SetInt(Mvc.GetModel<GameModel>().Account + LAST_MONTH_KEY, _currentMonth);
+        PlayerPrefs.SetInt(Mvc.GetModel<GameModel>().Account + TOTAL_KEY, _total);
         PlayerPrefs.Save();
+    }
+    public int getTotalRecharge()
+    {
+        return _total;
     }
 }

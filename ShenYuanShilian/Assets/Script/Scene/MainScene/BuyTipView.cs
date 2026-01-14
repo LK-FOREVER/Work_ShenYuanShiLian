@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -54,7 +55,7 @@ public class BuyTipView : View
         Enum.TryParse(curShopArg.curShopItemInfo.costType, out CostType costType);
         if (costType!=CostType.Cash)
         {
-            if ((curLimit[curShopArg.curShopItemInfo.id] + 1 <= curShopArg.curShopItemInfo.buyLimit))
+            if (curLimit[curShopArg.curShopItemInfo.id] + 1 <= curShopArg.curShopItemInfo.buyLimit)
             {
                 if (costType!=CostType.Free)
                 {
@@ -96,12 +97,17 @@ public class BuyTipView : View
             if (isSingleExceed)
             {
                 singleLimitPopup.SetActive(true);
+                Debug.Log(" singleLimitPopup.transform.Find(TextContent_1):"+ singleLimitPopup.transform.Find("bg/TextContent_1"));
+                singleLimitPopup.transform.Find("bg/TextContent_1").GetComponent<TextMeshProUGUI>().text =
+                    $"本次充值{curShopArg.curShopItemInfo.costNum}元，将超过单次充值限额。";
                 ageTips = true;
                 canBuy = false ;
             }
             else if (isMonthlyExceed)
             {
                 monthlyLimitPopup.SetActive(true);
+                monthlyLimitPopup.transform.Find("bg/TextContent_1").GetComponent<TextMeshProUGUI>().text =
+                    $"本次充值{curShopArg.curShopItemInfo.costNum}元，将超过本月累计充值限额。";
                 ageTips = true;
                 canBuy = false ;
             }
@@ -120,7 +126,7 @@ public class BuyTipView : View
         Enum.TryParse(curShopArg.curShopItemInfo.limitType, out LimitType limitType);
         Enum.TryParse(curShopArg.curShopItemInfo.costType, out CostType costType);
         Enum.TryParse(curShopArg.curShopItemInfo.buyType, out RewardType buyType);
-        if (JudgeCanBuy() || costType == CostType.Cash)
+        if (JudgeCanBuy())
         {
             switch (limitType)
             {

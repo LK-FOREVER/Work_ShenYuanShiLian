@@ -99,7 +99,7 @@ public class LoadingSceneManager : View
 
 #if UNITY_EDITOR
         string str =
-            "{\"adult_level\":\"3\",\"is_holiday\":\"false\",\"user_id\":\"123456789\",\"nickname\":\"q751531499\",\"timestamp\":\"2024-11-19T09:15:00Z\"}";
+            "{\"adult_level\":\"3\",\"is_holiday\":\"false\",\"user_id\":\"123456789\",\"nickname\":\"q751531499111\",\"timestamp\":\"1768201562\"}";
         LoginCallBack(str);
 #elif UNITY_ANDROID
         //Android平台调用SDK
@@ -145,7 +145,7 @@ public class LoadingSceneManager : View
         {
             GameManager.Instance.ExitGame(GetModel<GameModel>().TimeStamp);
         }
-
+        GameManager.Instance.LoadData();
         Utils.FadeIn();
         GameManager.Instance.StartOnlineTimer();
         GameManager.Instance.ChangeScene(Scene.Main);

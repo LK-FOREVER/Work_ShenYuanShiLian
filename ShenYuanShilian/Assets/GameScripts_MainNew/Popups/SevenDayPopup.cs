@@ -20,14 +20,14 @@ public class SevenDayPopup : MonoBehaviour
         
         // 初始化数据
         today = DateTime.Now;
-        signCount = PlayerPrefs.GetInt(SignNumPrefs, 0);
-        lastSignDate = DateTime.Parse(PlayerPrefs.GetString(SignDataPrefs, DateTime.MinValue.ToString()));
+        signCount = PlayerPrefs.GetInt(Mvc.GetModel<GameModel>().Account + SignNumPrefs, 0);
+        lastSignDate = DateTime.Parse(PlayerPrefs.GetString(Mvc.GetModel<GameModel>().Account + SignDataPrefs, DateTime.MinValue.ToString()));
         
         // 检查是否需要重置
         if(NeedReset())
         {
-            PlayerPrefs.DeleteKey(SignNumPrefs);
-            PlayerPrefs.DeleteKey(SignDataPrefs);
+            PlayerPrefs.DeleteKey(Mvc.GetModel<GameModel>().Account + SignNumPrefs);
+            PlayerPrefs.DeleteKey(Mvc.GetModel<GameModel>().Account + SignDataPrefs);
             signCount = 0;
         }
         
@@ -41,8 +41,8 @@ public class SevenDayPopup : MonoBehaviour
             signCount++;
             lastSignDate = today;
             
-            PlayerPrefs.SetInt(SignNumPrefs, signCount);
-            PlayerPrefs.SetString(SignDataPrefs, lastSignDate.ToString());
+            PlayerPrefs.SetInt(Mvc.GetModel<GameModel>().Account + SignNumPrefs, signCount);
+            PlayerPrefs.SetString(Mvc.GetModel<GameModel>().Account + SignDataPrefs, lastSignDate.ToString());
             
             GiveReward(signCount);
             UpdateUI();
@@ -53,7 +53,7 @@ public class SevenDayPopup : MonoBehaviour
     {
         for (int i = 0; i < alreadyHave.Length; i++)
         {
-            alreadyHave[i].SetActive(i<PlayerPrefs.GetInt(SignNumPrefs, 0));
+            alreadyHave[i].SetActive(i<PlayerPrefs.GetInt(Mvc.GetModel<GameModel>().Account + SignNumPrefs, 0));
         }
     }
     
